@@ -39,9 +39,11 @@ def nested_parentheses(incoming: str) -> bool:
     incoming = "())" => False
     incoming = "(()()(())" => False
     '''
-
-    if incoming.count("(") == incoming.count(")") or incoming == "":
+    if incoming == "":
         return True
+    elif incoming[0] == "(" and incoming[len(incoming)-1] == ")":
+        if incoming.count("(") == incoming.count(")"):
+            return True
     else:
         return False
 
@@ -54,11 +56,12 @@ if __name__ == '__main__':
     print(circular_shift(array, shift))
 
 
-    incoming = "((())(())())"
+    #incoming = "((())(())())"
 
-    #incoming = ""
+    incoming = ""
     #incoming = "(((())))"
     #incoming = "())"
     #incoming = "(()()(())"
+    #incoming = ")()("
 
     print(nested_parentheses(incoming))

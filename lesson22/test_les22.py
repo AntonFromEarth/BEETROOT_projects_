@@ -24,11 +24,13 @@ class TestLess22(unittest.TestCase):
 		incoming_t_3 = "(((())))"
 		incoming_f_1 = "())"
 		incoming_f_2 = "("
+		incoming_f_3 = incoming = ")()("
 		self.assertTrue(nested_parentheses(incoming_t_1))
 		self.assertTrue(nested_parentheses(incoming_t_2))
 		self.assertTrue(nested_parentheses(incoming_t_3))
 		self.assertFalse(nested_parentheses(incoming_f_1))
 		self.assertFalse(nested_parentheses(incoming_f_2))
+		self.assertFalse(nested_parentheses(incoming_f_3))
 
 
 
