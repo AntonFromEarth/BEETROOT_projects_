@@ -1,0 +1,46 @@
+[
+{
+"question": "Which filename extention used by Python?", 
+"answers": [
+	".pt", 
+	".py", 
+	".pth"
+], 
+"correct_answer": "2",
+"grade": "20"
+},
+
+{
+"question": "Why name of Python is Python?", 
+"answers": [
+	"By name of British comedy show \"Monty Python's Flying Circus\" ", 
+	"By favorit kind of snakes of creator of language", 
+	"P.Y.T.H.O.N is abbreviation of spetial words that have meaning for creator"
+], 
+"correct_answer": "1",
+"grade": "20"
+},
+
+{
+"question": "What is syntactic sugar expression mean?", 
+"answers": [
+	"It is very beauteful words in speeking language like \"moisture\" etc.", 
+	"It is spetial method in Python that fix syntax errors of yong programmer code.", 
+	"It is syntax in a programming language that make things easier to read or to express"
+], 
+"correct_answer": "3",
+"grade": "20"
+},
+
+{
+"question": "What is 'Zen of Python'", 
+"answers": [
+	"It is collection of principles of right writing of programm on Python.", 
+	"It is built in function of Python that conwers tupple-type variable to zen-type variable", 
+	"It is built-in word that make nice sounds"
+], 
+"correct_answer": "1",
+"grade": "20"
+}
+
+]
